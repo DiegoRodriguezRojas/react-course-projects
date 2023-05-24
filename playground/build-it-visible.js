@@ -5,7 +5,6 @@ class Visibility extends React.Component {
     this.state = {
       visibility: false
     }
-
   }
   toggleVisibility() {
     this.setState((prevState)=>{

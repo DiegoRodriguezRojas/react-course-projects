@@ -20,7 +20,6 @@ var Visibility = function (_React$Component) {
     _this.state = {
       visibility: false
     };
-
     return _this;
   }
 
