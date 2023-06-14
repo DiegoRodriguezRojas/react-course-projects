@@ -31,3 +31,7 @@ yarn add babel-core
 yarn add babel-loader
 
 yarn run webpack
+
+yarn add webpack-dev-server
+yarn add babel-plugin-transform-class-properties
+yarn add react-modal
