@@ -18,3 +18,16 @@ babel src/app.js --out-file=public/scripts/app.js --presets="env,react" --watch
 live-server public
 
 babel es6-let-const.js --out-file=public/scripts/es6-let-const.js --presets="env,react" --watch
+
+npm uninstall -g <MODULES>
+yarn global remove <MODULES>
+
+yarn add webpack
+
+yarn add react
+yarn add react-dom
+
+yarn add babel-core
+yarn add babel-loader
+
+yarn run webpack
